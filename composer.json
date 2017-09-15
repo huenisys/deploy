@@ -1,0 +1,21 @@
+{
+    "name": "huenisys/deploy",
+    "description": "easy deploy using git",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huenisys",
+            "email": "paul@huenits.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "HDeploy\\":"src/"
+        }
+    }
+}
